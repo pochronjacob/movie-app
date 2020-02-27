@@ -104,7 +104,7 @@ class MoviesList extends Component {
                 Cell: function(props) {
                     return (
                         <span>
-                            <DeleteMovie id={props.original._id} />
+                          <DeleteMovie id={props.original._id} />
                         </span>
                     )
                 },
